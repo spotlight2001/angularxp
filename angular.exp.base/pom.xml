@@ -14,6 +14,12 @@
 	</properties>
 
 	<dependencies>
+	
+		<dependency>
+			<groupId>at.wm</groupId>
+			<artifactId>wmutils-config</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- SPRING -->
 		<dependency>
@@ -36,6 +42,23 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- ORM -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>4.2.5.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.2.5.Final</version>
 		</dependency>
 
 		<!-- LOGGING -->
@@ -101,5 +124,6 @@
 	<modules>
 		<module>angular.exp.web</module>
 		<module>angular.exp.common</module>
+		<module>angular.exp.data</module>
 	</modules>
 </project>
