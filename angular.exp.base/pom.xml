@@ -15,11 +15,11 @@
 
 	<dependencies>
 	
-		<dependency>
-			<groupId>at.wm</groupId>
-			<artifactId>wmutils-config</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+	<dependency>
+		<groupId>at.wm</groupId>
+		<artifactId>wmutils-config</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
 
 		<!-- SPRING -->
 		<dependency>
@@ -124,6 +124,5 @@
 	<modules>
 		<module>angular.exp.web</module>
 		<module>angular.exp.common</module>
-		<module>angular.exp.data</module>
 	</modules>
 </project>
